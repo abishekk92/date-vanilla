@@ -27,7 +27,7 @@ I'm going on a date with <input type="text" name="partner" id="partner"/> to <in
 <input type="submit" value="Now,can you please show me some places?"/>
 </form>
 <?php
-/*function getFriends()
+function getFriends()
 {
 $friends=$facebook->api('/me/friends','GET');
 $friends_a=json_decode($friends,true);
@@ -37,7 +37,7 @@ function getCheckins($partner)
 {
   $checkins=$facebook->api('/me/'+$partner['id]'+'/checkins','GET');
   $checkin_a=json_decode($checkin);
-}*/
+}
 ?>
 
 </html>
